@@ -27,7 +27,8 @@ public class ObjFactory {
 				return new MergeSort();
 			case 4:
 				return new InsertionSort();
-
+			case 0:
+				return null;
 			default:
 				System.out.println("you entered wrong please give proper choice ");
 				break;
