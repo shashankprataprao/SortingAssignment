@@ -11,8 +11,8 @@ public class Client {
 		
 		int[] arr = {1,2,3,4,8,5,4,10,17,33,21,19,16};
 		int ch;
-		Scanner sc  = new Scanner(System.in);
-		try {
+		
+		try(Scanner sc  = new Scanner(System.in);) {
 			do {
 				
 				System.out.println(" ");
@@ -35,11 +35,10 @@ public class Client {
 				
 			} while (ch!=0);
 		} catch (Exception e) {
-			System.out.println("thanks......");
+			System.out.println("Thanks......");
 			
 		}
-		
-		sc.close();
+
 		
 		
 		
